@@ -74,6 +74,9 @@ class Program
         }
         Console.WriteLine($"The max is: {max}");
 
+        List<int> robot = new List<int> { 4, 3, 78, 5, 6 };
+        int maximo = robot.Max();
+        Console.WriteLine("El numero mayor es:" + maximo);
 
     }
 }
