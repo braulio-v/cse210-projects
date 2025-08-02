@@ -25,10 +25,31 @@ public class Fraction
         _bottom = bottom;
 
     }
+    public void SetTop(int Tn)
+    {
+        _top = Tn;
+    }
+    
+    public int GetTop()
+    {
+        return _top;
+    }
+
+    public void SetBottom(int Bn)
+    {
+        _bottom = Bn;
+    }
+
+    public int GetBottom()
+    {
+        return _bottom;
+    }
     public string GetFractionString()
     {
         string fract = $"{_top}/{_bottom}";
         return fract;
+
+        // or you could do is better:  return $"{_top}/{_bottom}";
     }
     public double GetDecimalValue()
     {
