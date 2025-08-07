@@ -6,7 +6,7 @@ public class Program
     {
         Console.WriteLine("Hello World! This is the Journal Project.");
 
-       Journal journal = new Journal();
+        Journal journal = new Journal();
         PromptGenerator promptGenerator = new PromptGenerator();
 
         bool running = true;
