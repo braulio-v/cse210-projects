@@ -4,7 +4,7 @@ public class PromptGenerator
 {
     public List<string> _prompts;
 
-    public PromptGenerator()
+    public PromptGenerator() 
     {
         _prompts = new List<string>
         {

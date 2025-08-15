@@ -13,7 +13,7 @@ public class Program
 
         while (running)
         {
-            Console.WriteLine("Please select one of the following choices:");
+            Console.WriteLine("Please select one of the fo llowing choices:");
             Console.WriteLine("1. Write");
             Console.WriteLine("2. Display journal");
             Console.WriteLine("3. Save journal to file");
@@ -28,7 +28,7 @@ public class Program
                 case "1":
                     string prompt = promptGenerator.GetRandomPrompt();
                     Console.WriteLine($"Prompt: {prompt}");
-                    Console.Write("Your response: ");
+                    Console.WriteLine("Your response: ");
                     string response = Console.ReadLine();
                     string date = DateTime.Now.ToShortDateString();
 
