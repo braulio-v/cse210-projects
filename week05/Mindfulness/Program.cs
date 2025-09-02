@@ -1,6 +1,6 @@
 using System;
 // I added "Keeping a log of how many times activities were performed"
-class Program
+class Program 
 {
     static void Main(string[] args)
     {
@@ -48,6 +48,6 @@ class Program
                 break;
             }
         }
-            
+
     }
 }

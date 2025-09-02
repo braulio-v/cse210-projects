@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-public class ListingActivity : Activity
+public class ListingActivity : Activity 
 {
     private int _count;
     private List<string> _prompts;
